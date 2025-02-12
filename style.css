@@ -1,0 +1,45 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+.card {
+    border: none;
+    margin-bottom: 1rem;
+}
+
+.bi-bookmark::before {
+    content: "\F1A2";
+    font-family: "Feather";
+    font-size: 1rem;
+    color: white;
+    font-weight: bolder;
+}
+
+.bi-heart::before {
+    content: "\F417";
+    font-family: "Feather";
+    font-size: 1rem;
+    color: white;
+    font-weight: bolder;
+}
+
+.card-img-overlay {
+    transition: 0.3s ease;
+    
+}
+
+.card-img-overlay:hover {
+    opacity: 1 !important;
+}
+
+.card-img::selection{
+    content: "";
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0px 0px 50px 15px #000;
+    z-index: 10;
+}
+
